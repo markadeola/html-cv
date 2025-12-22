@@ -1,15 +1,9 @@
 html{
-    font-size: 20px;
+    font-size: 15px;
 }
 body {
     background-color: #eee; color:rgb(42, 101, 165);
 }
 a {
     color: black;
-}
-table, tr, th, td, caption {
-    border: 2px solid black;
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: collapse;
-    padding: 0.5rem;
 }

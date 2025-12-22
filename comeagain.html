@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Mark Kolawole Adeola">
-    <link rel="stylesheet" href="main.css">
-    </head>
+    <style>
+        body {
+            background-color: #fff;
+        }
+        html {
+            font-size: 15px;
+        }
+        h1 {
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    </style>
     <title>Come Again-Meun</title>
 </head>
 <body>
+    <header>
     <!-- This contains a video of the resturant -->
-     <div class="come_again_resturant">
+     <section class="come_again_resturant">
     <h1>Come Again Resturant</h1>
     <video controls muted poster="resturant.mp4" width="200" height="150">
     <source src="/image/resturant.mp4" type="video/mp4">
@@ -20,20 +36,25 @@
         <source src="/image/voicenote.ogg" type="audio/mp3"> 
         <p>A man speaking</p>
         </audio>
-</div>
+     </section>
+     </header>
+     <header>
     <h2>Meun List</h2>
+    </header>
 <!-- list of dishes -->
- <div id="mainresturantdishes">
-    <h3>Main Dishes</h3>
+ <main>
+    <!-- This is the main resturant dishes -->
+    <section id="mainresturantdishes">
+        <h3>Main Dishes</h3>
     <ul>
         <li>Rice</li>
         <li>Spagehetti</li>
         <li>Native Soup</li>
         <li>Pepper Soup</li>
-    </ul>
-</div>
+    </ul> 
+ </section>
 <!-- rice types available -->
- <div class="rice">
+    <section class="rice">
     <h3>Rice Type</h3>
     <img src="/image/Rice.jpg" alt="plate of rice" width="100" height="50">
     <ul>
@@ -42,9 +63,9 @@
         <li>Coconut Rice</li>
         <li>White Rice</li>
     </ul>
-</div>
+ </section>
 <!-- soup types available -->
- <div class="soups">
+ <section class="soups">
     <h3>Soups</h3>
     <img src="/image/Soup.jpg" alt="Egusi-Soup" width="100" height="100">
     <ul>
@@ -53,9 +74,9 @@
         <li>Ewedu Soup</li>
         <li>Afang Soup</li>
      </ul>
-</div>
+    </section>
 <!-- shallow types available -->
- <div class="shallows">
+ <section class="shallows">
      <h3>Shallows</h3>
      <img src="/image/shallow.jpg" alt="pounded_yam" width="100" height="100">
      <ul>
@@ -64,9 +85,9 @@
         <li>Semo</li>
         <li>Wheat</li>
      </ul>
-</div>
+ </section>
 <!-- list of pepper soups available -->
- <div class="pepper_soups">
+ <section class="pepper_soups">
      <h3>Pepper Soups Types</h3>
      <img src="/image/meat.jpg" alt="A bowl of pepper soup" width="100" height="100">
      <ul>
@@ -75,10 +96,13 @@
         <li>Bush Meat</li>
         <li>Fish</li>
      </ul>
-     </div>
+ </section>
+ </main>
      <hr>
+     <footer>
      <p>
         <a href="#">Back To Top</a>
      </p>
+     </footer>
 </body>
 </html>
