@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mark Kolawole Adeola"> 
+        <style>
+            body {
+                 background-color: black ; font-family: 'Courier New', Courier, monospace; font-size: 20px;
+            }
+            h1 {
+                color: aliceblue;
+            }
+            p {
+                color: antiquewhite;
+            }
+            button {
+                background-color: blue;
+            }
+            blockquote
+        </style>
+        <title>My first form</title>
+    </head>
+    <body>
+        <fieldset>
+        <h1>Get Started</h1>
+        <p>welcome to giftcardstonaira!</p>
+        <form action="  " method="post">
+            <p>
+            <label for="FullName">Full Name</label><br>
+            <input type="text" name="FullName" id="FullName" placeholder="John Doe" required autofocus autocomplete="on">
+            </p>
+            <p>
+            <label for="UserName">User Name</label><br>
+            <input type="text" name="UserName" id="UserName" placeholder="@ johndoe" required autocomplete="on">
+            </p>
+            <p>
+            <label for="PhoneNumber">Phone Number</label><br>
+            <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="+234" required autocomplete="on">
+            </p>
+            <p>
+                <label for="EmailAddress">Email Address</label><br>
+            <input type="email" name="EmailAddress" id="EmailAddress" placeholder="you@email.com" required autocomplete="on">
+            </p>
+            <p>
+                <label for="password">password</label><br>
+            <input type="password" name="Password" id="Password" placeholder="min.of 8 characters" required min="8">
+            </p>
+            <p>
+                <label for="State">State</label><br>
+                <select name="State" id="State">
+                    <option value="lagos">Lagos</option>
+                    <option value="abuja">Abuja</option>
+                    <option value="Plateau">Plateau</option>
+                </select>
+            </p>
+            <p>
+                <label for="LocalGoverment">Local Goverment</label><br>
+                <input type="text" name="LocalGoverment" id="LocalGoverment" list="LocalGoverment">
+                <datalist id="LocalGoverment">
+                    <option value="Josnorth">
+                    <option value="jossouth">
+                    <option value="joseast"></option>
+
+
+                </datalist>
+            </p>
+            <p>
+                <label for="DateofBirth">Date Of Birth</label><br>
+                <input type="date" name="DateofBirth" id="DateofBirth">
+            </p>
+            <p>
+                <label for="Referralcode">Referral code(optional)</label><br>
+            <input type="text" name="Referralcode" id="Referralcode" placeholder="RFC00001" required autocomplete="on">
+            </p>
+            <button type="submit">Sign up</button>
+            </fieldset>
+        </form>
+    </body>
+  
